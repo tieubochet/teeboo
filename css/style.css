@@ -183,3 +183,19 @@ section, .section {
     position: relative;
 }
 .footer p{margin: 0;}
+.blog .blog-content .blog-info p{
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    margin-bottom: 5px;
+    line-height: 22px;
+}
+.blog .blog-content .blog-info h4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    margin-bottom: 10px;
+    height: 54px;
+}
